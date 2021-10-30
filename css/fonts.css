@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Manrope;
+    font-family: "Manrope";
     font-style: normal;
     font-weight: 800;
     src: url(/fonts/Manrope-Bold.woff2) format("woff2"), 
@@ -7,7 +7,7 @@
 }
 
 @font-face{
-    font-family: "Marope";
+    font-family: "Manrope";
     font-style: normal;
     font-weight: 500;
     src: url(/fonts/Manrope-Medium.woff2) format("woff2"),
