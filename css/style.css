@@ -43,11 +43,12 @@ body{
 
 .card_1 p{
     width: 254px;
-    font-size: 18px;
+    font-size: 17px;
     font-family: Manrope, sans-serif;
     font-weight: 400;
     line-height: 32px;
     padding-left: 16px;
+    
 }
 .name_1 p{
     font-family: Manrope;
