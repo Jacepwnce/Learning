@@ -7,6 +7,8 @@ body{
 .left{
     width: 720px;
     height: 896px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .heading_text_box{
@@ -14,9 +16,7 @@ body{
     font-family: Manrope, sans-serif;
     font-weight: 800;
     font-size: 48px;
-    margin: 120px 735px 24px 260px; 
-    border: 1px solid;
-    box-sizing: border-box; 
+    margin: 120px 30px 24px 260px;  
 }
 
 .text_upper_heading{
@@ -26,7 +26,7 @@ body{
 
 .text_under_heading{
     width: 445px;
-    font-family: Marope, sans-serif;
+    font-family: Manrope, sans-serif;
     font-weight: 400;
     font-size: 18px;
     margin-top: 0;  
@@ -38,7 +38,8 @@ body{
     margin-left: 355px;   
     background-color:#fff;
     border-radius: 8px;
-    box-sizing: border-box; 
+    box-sizing: border-box;  
+    vertical-align: middle;
 }
 
 .card_1 p{
@@ -48,15 +49,83 @@ body{
     font-weight: 400;
     line-height: 32px;
     padding-left: 16px;
+
     
 }
 .name_1 p{
     font-family: Manrope;
     font-weight: 800;
-    display: inline-block;
     margin-bottom: 0;
 }
 .name_1 span{
     color: #969BAB;
     padding-left: 16px;
 }
+.right{
+    display: inline-block;
+    width: 445px;
+    height: 64px;
+    vertical-align: middle;
+    margin-bottom: 388px;    
+}
+
+.card_2{
+    width: 450px;
+    padding: 32px;
+    margin-left: 0;  
+    background-color:#fff;
+    border-radius: 8px;
+    box-sizing: border-box; 
+    margin-bottom: 32px;
+    vertical-align: middle;
+}
+
+.card_2 p{
+    width: 254px;
+    font-size: 17px;
+    font-family: Manrope, sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    padding-left: 16px;
+    margin-bottom: 24px;
+    
+}
+.name_2 p{
+    font-family: Manrope;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.name_2 span{
+    color: #969BAB;
+    padding-left: 16px;
+}
+    .card_3{
+        width: 350px;
+        padding: 32px;
+        margin-left: 0;   
+        background-color:#fff;
+        border-radius: 8px;
+        box-sizing: border-box; 
+        vertical-align: middle;
+    }
+    
+    .card_3 p{
+        width: 254px;
+        font-size: 17px;
+        font-family: Manrope, sans-serif;
+        font-weight: 400;
+        line-height: 32px;
+        padding-left: 16px;
+        margin-bottom: 24px;
+        
+    }
+    .name_3 p{
+        font-family: Manrope;
+        font-weight: 800;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    .name_3 span{
+        color: #969BAB;
+        padding-left: 16px;
+    }
