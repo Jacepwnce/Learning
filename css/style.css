@@ -1,0 +1,7 @@
+.top_half{
+    height: 500px;
+   background-image: url(../img/Cover\ Image.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
