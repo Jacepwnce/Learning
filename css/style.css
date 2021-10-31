@@ -1,0 +1,24 @@
+.cotainer{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.logo{
+    vertical-align: middle;
+    margin-left: 165px;
+    margin-right: 657px;
+    padding-top: 22px;
+}
+nav{
+    width: 373px;
+    display: inline-block;
+    vertical-align: middle;
+    word-spacing: 32px;
+    padding-top: 26px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Manrope, sans-serif;
+    font-weight: 700;
+}
