@@ -1,0 +1,46 @@
+.container{
+    width: 1110px;
+    border: 1px solid;
+    margin: 0 auto;
+    padding-left: 165px;
+    background-color: #c3c3c3;
+}
+.left{
+    width: 540px;
+    height: 540px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color:#D5FAFC;
+    position: relative;
+    margin-right: 30px;
+}
+.first_img{
+position: absolute;
+margin: 0 auto;
+vertical-align: middle;
+padding-top: 140px;
+padding-left: 161px;
+}
+.right{
+    font-family: Marope, sans-serif;
+    font-weight: 800;
+    display: inline-block;
+    width: 444px;
+    padding-bottom: 229px;
+    vertical-align: middle;
+}
+.btn{
+   font-family: Manrope, sans-serif;
+   background-color:transparent;
+   vertical-align: middle;
+   color: #8C30F5;
+   font-size: 20px;
+    border:0;
+    cursor: pointer;
+    position: relative;
+}
+.btn img{
+    vertical-align: middle;
+    position: absolute;
+}
