@@ -1,0 +1,29 @@
+section{
+    width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    border: 1px solid;
+    box-sizing: border-box;
+}
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu{
+    display: inline-block;
+    vertical-align: middle;
+    word-spacing: 26px;
+    margin-left: -4px;
+    position: relative;
+    left: 657px;
+    right: 165px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Manrope;
+    font-weight: 700;
+}
