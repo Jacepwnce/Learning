@@ -23,6 +23,10 @@ nav a{
     font-family: Manrope, sans-serif;
     font-weight: 700;
 }
+.left{
+    height: 866px;
+    background-image:url(../img/BG.jpg)
+}
 .right{
     width: 735px;
     height: 866px;
