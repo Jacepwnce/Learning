@@ -1,14 +1,19 @@
 section{
     width: 1440px;
     margin: 0 auto;
+    position: relative;
 }
 .header{
-    border: 1px solid;
-    box-sizing: border-box;
+    height: 72px;
+    position: fixed;
+    z-index: 1;
 }
 .logo{
     display: inline-block;
     vertical-align: middle;
+    position: relative;
+    top:22px;
+    left: 165px;
 }
 
 .menu{
@@ -17,13 +22,28 @@ section{
     word-spacing: 26px;
     margin-left: -4px;
     position: relative;
-    left: 657px;
+    left: 825px;
     right: 165px;
+    margin-right: 165px;
+    top: 22px;
 }
 
+.container{
+    position: relative;
+}
 .menu a{
     text-decoration: none;
     font-size: 14px;
     font-family: Manrope;
     font-weight: 700;
+}
+.left{
+    display: inline-block;
+    vertical-align: middle;
+    width: 705px;
+}
+.right{   
+display:inline-block;
+vertical-align: middle;
+position: absolute;
 }
