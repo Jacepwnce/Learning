@@ -21,6 +21,7 @@ section{
     display: inline-block;
     vertical-align: middle;
     text-align: center;
+    padding-top: 32px;
 }
 .block_1  h1{
     font-family: Manrope;
@@ -38,6 +39,7 @@ section{
     display: inline-block;
     vertical-align: middle;
     text-align: center;
+    padding-top: 32px;
 }
 .block_2  h1{
     font-family: Manrope;
@@ -55,6 +57,7 @@ section{
     display: inline-block;
     vertical-align: middle;
     text-align: center;
+    padding-top: 32px;
 }
 .block_3  h1{
     font-family: Manrope;
@@ -72,6 +75,7 @@ section{
     display: inline-block;
     vertical-align: middle;
     text-align: center;
+    padding-top: 32px;
 }
 .block_4  h1{
     font-family: Manrope;
