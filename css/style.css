@@ -37,13 +37,40 @@ section{
     font-family: Manrope;
     font-weight: 700;
 }
+/* header ready */
+
 .left{
     display: inline-block;
     vertical-align: middle;
     width: 705px;
+    position: relative;
 }
-.right{   
+.right{ 
+width: 705px;  
 display:inline-block;
 vertical-align: middle;
 position: absolute;
+}
+
+.wrapper{
+    width: 540px;
+    height: 356px;
+    position: absolute;
+    display: inline-block;
+    left: 165px;
+    top: 344px;
+}
+.text h1{
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 72px;
+    margin-bottom: 16px;
+}
+.text span{
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 18px;
+}
+.media_img{
+    margin-top: 32px;
 }
