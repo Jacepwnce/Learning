@@ -48,6 +48,18 @@ a:hover{
     width: 705px;
     position: relative;
 }
+.media{
+    margin-top: 32px;
+}
+.circle{
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: -4px;
+}
+.line{
+    vertical-align: middle;
+    margin-left: 8px;
+}
 .right{ 
 width: 705px;  
 display:inline-block;
