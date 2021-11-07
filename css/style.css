@@ -1,0 +1,22 @@
+body{
+font-family: Nunito, sans-serif;
+font-style: normal;
+font-weight: 800;
+}
+header{
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.header_logo{
+    background-image: url(../img/Logo.png);
+    padding: 16px 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+nav a{
+    margin-right: 32px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
