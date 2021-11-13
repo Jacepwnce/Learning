@@ -6,6 +6,8 @@ font-weight: 800;
 header{
     margin: 0 auto;
     padding-top: 25px;
+    height: 89px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 14.06%, rgba(255, 255, 255, 0.8) 85.42%, rgba(255, 255, 255, 0) 100%);
 }
 .header_logo{
     background-image: url(../img/Logo.png);
@@ -19,6 +21,7 @@ nav a{
     font-style: normal;
     font-weight: 400;
     text-decoration: none;
+    color: #485466;
 }
 .arrow_down{
     vertical-align: middle;
@@ -45,3 +48,44 @@ nav a{
     border-radius: 8px;
 }
 /* header ready */
+
+.text_box{
+    margin-top: 138px;
+    z-index: 1;
+}
+.description_main{
+    color:#C381DB;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 70px;
+    margin-bottom: -40px;
+}
+.description_second{
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 48px;
+}
+.bold{
+    font-weight: 700;   
+}
+.text{
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 13px;
+    color: #5A6980;
+}
+.btn_wrapper{
+    background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9 100%);
+    border-radius: 8px;
+    border:0;
+    padding: 7px 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 22px;
+    cursor: pointer;    
+}
+.chair_img{
+    position: relative;
+    left: 422px;
+    bottom: 380px;
+}
