@@ -14,9 +14,34 @@ header{
     cursor: pointer;
 }
 nav a{
-    margin-right: 32px;
+    vertical-align: middle;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     text-decoration: none;
 }
+.arrow_down{
+    vertical-align: middle;
+    margin-right: 32px;
+    margin-left: 6px;
+}
+.first_btn{
+    width: 78px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #4E92F9;
+    padding: 7px 16px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.second_btn{
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 7px 16px;
+    color: #4E92F9;
+    box-shadow: 0px 7px 20px rgba(49, 69, 255, 0.13);
+    border-radius: 8px;
+}
+/* header ready */
