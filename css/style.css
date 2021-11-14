@@ -1,0 +1,38 @@
+body{
+font-family: Nunito;
+font-style: normal;
+}
+
+.main_description{
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.first_block,
+.second_block,
+.third_block,
+.fourth_block,
+.fifth_block,
+.sixth_block{
+    text-align: center;
+    margin-right: 24px;
+}
+
+.first_block h3,
+.second_block h3,
+.third_block h3,
+.fourth_block h3,
+.fifth_block h3,
+.sixth_block h3{
+font-weight: 700;
+font-size: 20px;
+}
+
+
+
+
+.first_block,
+.second_block,
+.third_block{
+    margin-bottom: 77px;
+}
