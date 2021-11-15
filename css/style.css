@@ -1,11 +1,31 @@
+* {box-sizing:border-box}
+h1,h2,h3,p {margin: 0;}
+
+
 body{
 font-family: Nunito;
 font-style: normal;
 }
 
 .main_description{
+    margin: 0 auto;
     text-align: center;
     margin-bottom: 85px;
+    width: 558px;
+}
+
+.main_description h1{
+    font-size: 40px;
+    color: #242A33;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.main_description p{
+    color:#5A6980;
+    font-weight:400;
+    font-size:16px;
 }
 
 .first_block,
@@ -24,10 +44,22 @@ font-style: normal;
 .fourth_block h3,
 .fifth_block h3,
 .sixth_block h3{
+    color: #6C7E99;
 font-weight: 700;
 font-size: 20px;
 }
 
+
+.first_block p,
+.second_block p,
+.third_block p,
+.fourth_block p,
+.fifth_block p,
+.sixth_block p{
+    margin-top: 8px;
+    color: #7E92B2;
+    font-weight: 400;
+}
 
 
 
