@@ -1,0 +1,17 @@
+.left_half_up{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 741px;
+}
+
+.left_half_low{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 741px;
+    margin-top: 16px;
+}
+
