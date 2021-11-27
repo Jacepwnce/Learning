@@ -10,7 +10,7 @@ font-family: Gilroy;
 font-weight:bold;
 }
 .desscription{
-    margin-left: 567px;
+    margin-left: 640px;
 }
 .lower_size{
     font-size: 20px;
@@ -24,6 +24,7 @@ font-weight:bold;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
+    justify-content: space-around;
 }
 .upper_flex_1{
 display: flex;
@@ -60,4 +61,12 @@ align-items: flex-end;
 .upper_r_flex img{
     margin-right: 16px;
     margin-bottom: 16px;
+}
+
+.lower_r_flex{
+    display: flex;
+    align-items:flex-start;
+}
+.lower_r_flex img{
+    margin-right: 16px;
 }
