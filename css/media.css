@@ -28,14 +28,14 @@
      }
      .slider-text p{
          margin-bottom: 10px;
-         font-size: 18px;
+         font-size: 16px;
          line-height: 23px;
      }
      .slider-flex{
         flex-wrap: wrap;
     }
     .slider-text h2{
-        font-size: 32px;
+        font-size: 33px;
         line-height: 35px;
         margin-bottom: 10px;
     }
@@ -194,7 +194,7 @@
 
 /* end 768 */
 
-/* meida 1024 */
+/* meida 1440 */
 
 @media  screen and (max-width: 1440px) {
     .container{
