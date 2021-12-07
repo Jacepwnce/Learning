@@ -1,173 +1,38 @@
 
-/* media 320 */
-
- @media screen and (max-width: 320px) {
-     body{
-            background-image:none;
-     }
-     .ml-60px{
-         margin-left: 0;
-     }
-    .container{
-         width: 300px;
-         padding-right: 35px;
-     }
-    .header{
-        padding: 35px 0;
-    }
-   
-     .header-nav a{
-         display: none;
-     }
-     .header-flex{
-         align-items:center;
-     }
-     .slider-text{
-         margin-top: 0 ;
-         text-align: center;
-     }
-     .slider-text p{
-         margin-bottom: 10px;
-         font-size: 16px;
-         line-height: 23px;
-     }
-     .slider-flex{
-        flex-wrap: wrap;
-    }
-    .slider-text h2{
-        font-size: 33px;
-        line-height: 35px;
-        margin-bottom: 10px;
-    }
-    .slider-text a{
-        margin-left: 28px;
-    }
-    .slider-text button{
-        margin-left: 27px;
-        margin-right: 10px;
-        margin-bottom: 15px;
-    }
-    .slick-dots{
-        margin-left: 45px;
-        bottom: -50px;
-        position: absolute;
-
-    }
- }
-/* end 320 */
 
 
 
-/* media 375 */
 
- @media screen and (max-width: 375px) {
-     body{
-         background-image:none;
-     }
-     .container{
-         width: 360px;
-         padding-right: 100px;
-     }
-     .ml-60px{
-         margin-left: 0;
-     }
-     .header{
-         padding: 15px;
-         margin-bottom: 20px;
-     }
-     .header-logo{
-        margin-left: 0;
-     }
-     .burger{
-         margin-right: 15px;
-     }
-     .header-nav a {
-         display: none;
-     }
-     .slider-flex{
-        flex-wrap: wrap;
-     }
-     .slider-text{
-        margin-top: 0 ;
-        text-align: center;
-     }
-     
-     .slider-text h2{
-        font-size: 35px;
-        line-height: 35px;
-        margin-bottom: 15px;
-        margin-top: 10px;
-     }
-     .slider-text p{
-        margin-bottom: 20px;
-     }
-     .slider-text a{
-        margin-left: 28px;
-    }
-     .slider-text button{
-        margin-left: 27px;
-        margin-right: 10px;
-        margin-bottom: 25px;
-    }
-    .slick-dots{
-        margin-left: 45px;
-        bottom: -50px;
-        position: absolute;
-    }
- }
- /* end 375 */
 
- @media screen and (max-width: 425px) {
-     .container{
-         width: 400px;
-     }
-     .ml-60px{
-        margin-left: 0;
-    }
-.header-nav{
-    display: none;
-}
-.slider-flex{
-    flex-wrap: wrap;
- }
- .slider-text{
-    margin-top: 0 ;
-    text-align: center;
- }
- .slider-text span{
-     font-size: 16px;
- }
- .slider-text h2{
-    font-size: 45px;
-    line-height: 45px;
-    margin-bottom: 15px;
-    margin-top: 10px;
- }
- .slider-text p{
-     font-size: 18px;
-    margin-bottom: 20px;
- }
- .slider-text button{
-    margin-left: 93px;
-    margin-right: 90px;
-    margin-bottom: 25px;
- }
- .slider-text a{
-    margin-left: 18px;
-    margin-right: 15px;
 
-}
-.slick-dots{
-    margin-left: 100px;
-    bottom: -50px;
-    position: absolute;
-}
- }
+ 
  /* end 425 */
 
 /* media 768 */
 
- @media screen and (max-width: 768px) {
+ 
+
+/* end 768 */
+
+/* meida 1440 */
+
+@media  screen and (max-width: 1440px) {
+    .container{
+        width: 1400px;
+    }
+    .header{
+        padding: 40px 0;
+    }
+.slick-dots{
+    left: 0;
+    position: absolute;
+}
+}
+
+
+
+
+@media screen and (max-width: 768px) {
     .container{
         width: 740px;
     }
@@ -192,19 +57,168 @@
  }
 }
 
-/* end 768 */
-
-/* meida 1440 */
-
-@media  screen and (max-width: 1440px) {
+@media screen and (max-width: 425px) {
     .container{
-        width: 1400px;
+        width: 400px;
+    }
+    .ml-60px{
+       margin-left: 0;
+   }
+.header-nav{
+   display: none;
+}
+.slider-flex{
+   flex-wrap: wrap;
+}
+.slider-text{
+   margin-top: 0 ;
+   text-align: center;
+}
+.slider-text span{
+    font-size: 16px;
+}
+.slider-text h2{
+   font-size: 45px;
+   line-height: 45px;
+   margin-bottom: 15px;
+   margin-top: 10px;
+}
+.slider-text p{
+    font-size: 18px;
+   margin-bottom: 20px;
+}
+.slider-text button{
+   margin-left: 93px;
+   margin-right: 90px;
+   margin-bottom: 25px;
+}
+.slider-text a{
+   margin-left: 18px;
+   margin-right: 15px;
+
+}
+.slick-dots{
+   margin-left: 100px;
+   bottom: -50px;
+   position: absolute;
+}
+}
+
+/* media 375 */
+
+@media screen and (max-width: 375px) {
+    body{
+        background-image:none;
+    }
+    .container{
+        width: 360px;
+        padding-right: 100px;
+    }
+    .ml-60px{
+        margin-left: 0;
     }
     .header{
-        padding: 40px 0;
+        padding: 15px;
+        margin-bottom: 20px;
     }
-.slick-dots{
-    left: 0;
-    position: absolute;
+    .header-logo{
+       margin-left: 0;
+    }
+    .burger{
+        margin-right: 15px;
+    }
+    .header-nav a {
+        display: none;
+    }
+    .slider-flex{
+       flex-wrap: wrap;
+    }
+    .slider-text{
+       margin-top: 0 ;
+       text-align: center;
+    }
+    
+    .slider-text h2{
+       font-size: 35px;
+       line-height: 35px;
+       margin-bottom: 15px;
+       margin-top: 10px;
+    }
+    .slider-text p{
+       margin-bottom: 20px;
+    }
+    .slider-text a{
+       margin-left: 28px;
+   }
+    .slider-text button{
+       margin-left: 27px;
+       margin-right: 10px;
+       margin-bottom: 25px;
+   }
+   .slick-dots{
+       margin-left: 45px;
+       bottom: -50px;
+       position: absolute;
+   }
 }
+/* end 375 */
+
+
+
+
+/* media 320 */
+
+@media screen and (max-width: 320px) {
+    body{
+           background-image:none;
+    }
+    .ml-60px{
+        margin-left: 0;
+    }
+   .container{
+        width: 300px;
+        padding-right: 35px;
+    }
+   .header{
+       padding: 35px 0;
+   }
+  
+    .header-nav a{
+        display: none;
+    }
+    .header-flex{
+        align-items:center;
+    }
+    .slider-text{
+        margin-top: 0 ;
+        text-align: center;
+    }
+    .slider-text p{
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .slider-flex{
+       flex-wrap: wrap;
+   }
+   .slider-text h2{
+       font-size: 33px;
+       line-height: 35px;
+       margin-bottom: 10px;
+   }
+   .slider-text a{
+       margin-left: 28px;
+   }
+   .slider-text button{
+       margin-left: 27px;
+       margin-right: 10px;
+       margin-bottom: 15px;
+   }
+   .slick-dots{
+       margin-left: 45px;
+       bottom: -50px;
+       position: absolute;
+
+   }
 }
+/* end 320 */
