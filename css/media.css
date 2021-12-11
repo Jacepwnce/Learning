@@ -5,7 +5,7 @@
         max-width:1000px;   
     }
 }
-/* media 1024px start */
+/* media 1024px end */
 
 /* media 768px start */
 
@@ -132,7 +132,7 @@
 /* media 320px start */
 @media screen and (max-width:320px) {
     .container{
-        max-width:300px;
+        max-width:290px;
     }
     
     .trends-text__title{
@@ -154,14 +154,14 @@
 
     .trends-inspiration__title{
         font-size: 25px;
-        margin-left: 80px;
+        margin-left: 55px;
     }
     .trends-inspiration__subtitle{
         width:250px;
         text-align: center;
         font-size: 14px;
         margin-top: 40px;
-        margin-left: -65px;
+        margin-left: -75px;
     }
     .arrow-link{
         margin-bottom: 3px;
