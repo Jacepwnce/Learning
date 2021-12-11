@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Varta", "Merriweather","Karla", "Metropolis", sans-serif;
+    margin: 0;
+    color: #706458;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+p{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/* TRENDS START */
+
+.trends{
+    padding: 70px 0;
+}
+
+.trends-text{
+    margin-bottom: 64px;
+}
+
+.trends-text__title{
+    font-family: "Merriweather";
+    font-weight: 300;
+    font-size: 35px;
+    color: #121212;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.trends-text__subtitles{
+    font-family: "Varta";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(112, 100, 88, 0.9);
+    margin-bottom: 10px;
+}
+
+.trends-text a{
+    text-decoration: none;
+    font-family: "Karla";
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    color: #A06056;
+}
+
+.trends-email{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.trends_email__input{
+    width: 296px;
+    margin-right: 16px;
+    background: rgba(243, 238, 232, 0.3);
+    border-radius: 1px;
+    color: #121212;
+    padding: 15px 15px 10px 15px;
+    border:none;
+    min-height: 50px;
+}
+
+.trends_email__input::placeholder{
+    font-family: "Varta";
+    font-weight: 400;
+    font-size: 18px;
+    color:rgba(112, 100, 88, 0.9);
+
+}
+
+.trends_email__btn{
+font-family: "Karla";
+font-weight: 700;
+font-size: 17px;
+line-height: 25px;
+letter-spacing: 0.3px;
+text-align: center;
+max-width: 143px;
+min-height: 50px;
+padding: 12px 30px;
+border: none;
+background-color:#534B42;
+color: #fff;
+cursor: pointer;
+}
+
+/* TRENDS END */
+
+    /* SLICK-SLIDER START */
+
+    .trends-slider{
+        margin-bottom: 40px;
+    }
+
+    .slick-initialized .slick-slide {
+        margin: 0 15px 0 0;
+    }
+
+  .slick-arrow{
+      top: calc(100% + 40px);
+     
+  }
+
+.slick-prev, .slick-next{
+    width: 40px;
+    height: 40px;
+}
+
+  .slick-prev{
+      left: 68%;
+  }
+
+  .slick-prev::before{
+      content:url("../img/slider/prev.arrow.svg");
+  }
+
+  .slick-next{
+      left: 73%; 
+  }
+
+  .slick-next::before{
+      content: url("../img/slider/next.arrow.svg");
+  }
+
+    /* SLICK-SLIDER END */
+
+    /* TRENDS-INSPIRATIOPN START */
+
+    .trends-inspiration__title{
+        font-family: "Merriweather";
+        font-weight: 300;
+        font-size: 45px;
+        line-height: 40px;
+        color:#534B42;
+        margin-right: 30px;
+        letter-spacing: 0.3px;
+    }
+
+    .trends-inspiration__subtitle{
+        font-family: "Varta";
+        width: 359px;
+        line-height: 25px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    /* TRENDS-INSPIRATIOPN END */
+    

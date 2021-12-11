@@ -1,0 +1,173 @@
+/* media 1024px start */
+
+@media screen and (max-width: 1024px) {
+    .container{
+        max-width:1000px;   
+    }
+}
+/* media 1024px start */
+
+/* media 768px start */
+
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 740px;
+    }
+    .trends-text__subtitles{
+        font-size: 16px;
+    }
+    .trends-text a{
+        font-size: 14px;
+    }
+    .trends_email__btn{
+        font-size: 14px;
+    }
+    .trends_email__input{
+        width: 250px;
+    }
+    .trends_email__input::placeholder{
+        font-size: 16px;
+    }
+    .slick-prev, .slick-next{
+        width: 20px;
+        height: 20px;
+    }
+        .slick-prev{
+            left: 75%;
+        }
+
+        .slick-next{
+            left: 82%;
+        }
+        .trends-inspiration__title{
+            font-size: 30px;
+        }
+        .trends-inspiration__subtitle{
+            font-size: 16px;
+            width: 300px;
+        }
+}
+/* media 768px end */
+
+/* media 425px start */
+
+@media screen and (max-width: 425px){
+    .container{
+        max-width: 400px;
+    }
+    .trends-text{
+        margin-bottom: 20px;
+    }
+    .trends-text__title{
+        font-size: 30px;
+    }
+
+    .trends-text a{
+        font-size: 12px;
+    }
+
+    .trends-email{
+        flex-direction: column;
+        align-items:center;
+        
+    }
+    .trends_email__input{
+        width: 150px;
+        margin-bottom: 15px;
+    }
+    .trends_email__input::placeholder{
+        font-size: 14px;
+    }
+
+    .trends-text__subtitles{
+        font-size: 14px;
+    }
+    .trends_email__btn{
+        width: 100px;
+        font-size: 11px;
+    }
+    .trends-slider{
+        margin-bottom: 20px;
+    }
+    .slick-prev::before{
+        display: none;
+    }
+    .slick-next::before{
+        display: none;
+    }
+
+    .trends-inspiration__title{
+        font-size: 25px;
+        margin-left: 135px;
+    }
+    .trends-inspiration__subtitle{
+        width:250px;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 40px;
+        margin-left: -28px;
+    }
+}
+/* media 425px end */
+
+/* media 375px start */
+@media screen and (max-width:375px) {
+    .container{
+        max-width:360px
+    }
+    .trends-inspiration__title{
+        font-size: 25px;
+        margin-left: 120px;
+    }
+    .trends-inspiration__subtitle{
+        width:250px;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 40px;
+        margin-left: -40px;
+    }
+}
+/* media 375px end */
+
+/* media 320px start */
+@media screen and (max-width:320px) {
+    .container{
+        max-width:300px;
+    }
+    
+    .trends-text__title{
+        font-size: 25px;
+        margin-bottom: 10px;
+        line-height: 25px;
+    }
+
+    .trends-text__subtitles{
+        font-size: 14px;
+        margin-bottom: 1px;
+        line-height: 20px;
+    }
+    .trends_email__btn{
+        display: inline-flex;
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+
+    .trends-inspiration__title{
+        font-size: 25px;
+        margin-left: 80px;
+    }
+    .trends-inspiration__subtitle{
+        width:250px;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 40px;
+        margin-left: -65px;
+    }
+    .arrow-link{
+        margin-bottom: 3px;
+        vertical-align: middle;
+        width: 15px;
+    }
+}
+
+/* media 320px end */
