@@ -32,10 +32,7 @@
   font-weight: 800;
 }
 
-.footer-flex_item:nth-child(4){
-  margin-right: 164px;
-}
-
-.social_icons_items img{
-  margin-right: 8px;
+.flex__item__title{
+  font-family: Nunito, sans-serif;
+  font-weight: 800;
 }
