@@ -1,0 +1,14 @@
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-flex_item{
+    display: flex;
+    flex-direction: column;
+}
