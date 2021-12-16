@@ -37,6 +37,10 @@
   font-weight: 800;
 }
 
+.social_icons_items{
+  margin-bottom: 40px;
+}
+
 .flex__item__input{
   position: relative; 
   vertical-align: middle;
@@ -47,33 +51,64 @@
   background-image: url("../img/envelope.svg");
   background-repeat:no-repeat;
   background-position-y:center;
-  background-position-x:8px;
+  background-position-x:12px;
   background-size: 12px 22px;
   padding-left: 30px;
   position: absolute;
-  vertical-align: middle;
-  border-image: 0 , 1px solid ;
   border-radius: 80px;
   padding-top: 9px;
   vertical-align:middle;
   padding-bottom: 9px;
   width: 364px;
-  
+  border: 2px solid #fff;
+  background-color: linear-gradient(130.17deg, rgba(255, 255, 255, 0.136) 2.38%, rgba(255, 255, 255, 0.85) 98.89%);
+  margin-bottom: 38px;
 }
 
+.inp_email::placeholder{
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  line-height:22.4px ;
+  color: #A2BDE5;
+}
 
 .btn{
   position: absolute;
   border-radius: 50%;
-  border-color: blue;
   left: 365px;
   top: 5px;
   width: 29px;
   height: 29px;
   cursor: pointer;
+  border-color: #A2BDE5;
+}
+
+.inp_email:focus{
+  background-image:none;
 }
 
 .btn img{
   padding-left:3px ;
  
+}
+
+
+.footer-flex_bottom_body{
+  margin: 0 auto;
+  width: 1140px;
+  border: 1px solid;
+}
+
+.footer-flex_bottom_copy{
+  display: inline-flex;
+  margin-top: 92px;
+  margin-right:56%;
+}
+.Reserved{
+
+}
+
+.footer-flex_bottom_wagon{
+  display: inline-flex;
+  vertical-align:middle;
 }
