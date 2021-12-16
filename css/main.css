@@ -36,3 +36,21 @@
   font-family: Nunito, sans-serif;
   font-weight: 800;
 }
+
+.flex__item__input{
+  position: relative; 
+  vertical-align: middle;
+  
+}
+
+.inp_email{
+  background-image: url("../img/envelope.svg");
+  background-repeat:no-repeat;
+  background-position-y:center;
+  background-position-x:8px;
+  background-size: 12px 22px;
+  padding-left: 30px;
+  position: absolute;
+  vertical-align: middle;
+  border-radius: 80px;
+}
