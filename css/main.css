@@ -52,5 +52,28 @@
   padding-left: 30px;
   position: absolute;
   vertical-align: middle;
+  border-image: 0 , 1px solid ;
   border-radius: 80px;
+  padding-top: 9px;
+  vertical-align:middle;
+  padding-bottom: 9px;
+  width: 364px;
+  
+}
+
+
+.btn{
+  position: absolute;
+  border-radius: 50%;
+  border-color: blue;
+  left: 365px;
+  top: 5px;
+  width: 29px;
+  height: 29px;
+  cursor: pointer;
+}
+
+.btn img{
+  padding-left:3px ;
+ 
 }
