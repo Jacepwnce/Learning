@@ -13,6 +13,7 @@
 .footer-flex_item {
   display: flex;
   flex-direction: column;
+  margin-bottom: 92px;
 }
 
 .footer-flex_item a {
@@ -60,7 +61,7 @@
   vertical-align:middle;
   padding-bottom: 9px;
   width: 364px;
-  border: 2px solid #fff;
+  border: 2px solid #5e90f5;
   background-color: linear-gradient(130.17deg, rgba(255, 255, 255, 0.136) 2.38%, rgba(255, 255, 255, 0.85) 98.89%);
   margin-bottom: 38px;
 }
@@ -96,16 +97,30 @@
 .footer-flex_bottom_body{
   margin: 0 auto;
   width: 1140px;
-  border: 1px solid;
+  border-top: 1px solid #B4D2FF;
+  padding-top: 25px;
 }
 
 .footer-flex_bottom_copy{
   display: inline-flex;
-  margin-top: 92px;
-  margin-right:56%;
+  margin-right:53%;
 }
 .Reserved{
+font-family: Nunito;
+font-weight: 400;
+font-size: 16px;
+color:  #7E92B3;
+}
 
+.Company{
+  font-family: Nunito, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer-wagon{
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .footer-flex_bottom_wagon{
