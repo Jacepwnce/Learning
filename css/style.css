@@ -13,9 +13,34 @@ html{overflow: hidden;}
     display: flex;
     margin: 0 auto;
 }
+.regis-page_logo{
+    position: absolute;
+    z-index: 1;
+    margin-left: 5.125rem;
+    margin-top: 4rem;
+}
+.regist-page__text{
+    position: absolute;
+    z-index: 1;
+    width: 29.5625rem;
+    left: 6.625rem;
+    top: 23.125rem;
+    font-size: 1.25rem;
+    line-height: 2.375rem;
+    color: #fff;
+}
+
+.name_obi{
+    position: absolute;
+    z-index: 1;
+    left: 82px;
+    top: 582px;
+}
+
 
 .regist-page_bg{
     margin-right: 7.9375rem;
+    position: relative;
 }
 
 .regis-page_body{
