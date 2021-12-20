@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.regist-page_bg{
+    margin-right: 7.9375rem;
+}
+
+.regis-page_body{
+    margin-top: 12.0625rem;
+}
+
+.regis-page_title{
+    margin-bottom: 0.625rem;
+}
+
+.regis-page_subtitle{
+    margin-bottom: 2.5rem;
+}
+
+
+.input_title{
+    margin-bottom: 0.875rem;
+}
+
+.regis-page_input_items{
+    margin-bottom: 1.5rem;
+}
+
+.regis_item{
+    width: 26.625rem;
+    padding-left: 1.875rem;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.regis-page_check{
+    margin-bottom: 2.4375rem;
+}
+
+.check_text{
+    margin-left: 0.875rem;
+}
+
+.regis-page_check input{
+   width: 1.25rem;
+   height: 1.25rem;
+   position: relative;
+}
+
+.regis-page_check input:checked + label{
+    background-color: blue;
+    position: absolute;
+}
+
+.regist_account{
+    width: 26.625rem;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.21rem;
+    background-color:#1565D8;
+}
