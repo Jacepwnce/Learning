@@ -11,64 +11,79 @@ html{overflow: hidden;}
 .container{
     max-width: 1440px;
     display: flex;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 .regis-page_logo{
     position: absolute;
     z-index: 1;
-    margin-left: 5.125rem;
-    margin-top: 4rem;
+    margin-left: 73px;
+    margin-top: 48px;
 }
+.regis-page_logo img{
+    height: 28px;
+}
+
 .regist-page__text{
     position: absolute;
     z-index: 1;
-    width: 29.5625rem;
-    left: 6.625rem;
-    top: 23.125rem;
-    font-size: 1.25rem;
-    line-height: 2.375rem;
+    width: 26.5625rem;
+    left:73px;
+    top: 328px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
     color: #fff;
 }
 
 .name_obi{
     position: absolute;
     z-index: 1;
-    left: 82px;
-    top: 582px;
+    left: 73px;
+    top: 521px;
+    font-size: 18px;
 }
 
 
 .regist-page_bg{
-    margin-right: 7.9375rem;
+    margin-right: 115px;
     position: relative;
+}
+.regist-page_bg img{
+    width:606px
+
 }
 
 .regis-page_body{
-    margin-top: 12.0625rem;
+    margin-top: 175px;
 }
 
-.regis-page_title{
-    margin-bottom: 0.625rem;
+.regis-page_title h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 13px;
 }
 
 .regis-page_subtitle{
-    margin-bottom: 2.5rem;
+    margin-bottom: 63px;
 }
 
 
 .input_title{
-    margin-bottom: 0.875rem;
+    margin-bottom: 11px;
 }
 
 .regis-page_input_items{
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 .regis_item{
-    width: 26.625rem;
+    width: 388px;
     padding-left: 1.875rem;
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    border-radius: 0.375rem;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    border: 1px solid #1565D8;
 }
 
 .regis-page_check{
@@ -82,16 +97,11 @@ html{overflow: hidden;}
 .regis-page_check input{
    width: 1.25rem;
    height: 1.25rem;
-   position: relative;
 }
 
-.regis-page_check input:checked + label{
-    background-color: blue;
-    position: absolute;
-}
 
 .regist_account{
-    width: 26.625rem;
+    width: 386px;
     padding-top: 21px;
     padding-bottom: 20px;
     color: #fff;
